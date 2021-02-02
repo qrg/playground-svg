@@ -5,8 +5,6 @@ const configs = [
   'eslint:recommended',
   'standard',
   'prettier',
-  'prettier/react',
-  'prettier/standard',
   'plugin:import/errors',
   'plugin:import/warnings',
   'plugin:promise/recommended',
@@ -17,7 +15,6 @@ const configs = [
 ]
 const configsTs = [
   ...configs,
-  'prettier/@typescript-eslint',
   'plugin:import/typescript',
   'plugin:@typescript-eslint/recommended',
   'plugin:@typescript-eslint/recommended-requiring-type-checking',
