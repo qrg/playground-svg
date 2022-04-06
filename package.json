@@ -22,7 +22,7 @@
     "recoil": "0.7.0"
   },
   "devDependencies": {
-    "@babel/core": "7.17.8",
+    "@babel/core": "7.17.9",
     "@babel/preset-env": "7.16.11",
     "@babel/preset-react": "7.16.7",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.5",
