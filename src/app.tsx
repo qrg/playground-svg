@@ -43,7 +43,7 @@ export const App: FC = () => {
     <Artboard>
       <NodeLayer>
         {nodes.map((node) => (
-          <Node {...node} key={node.id} />
+          <Node {...node} />
         ))}
       </NodeLayer>
       <LineLayer>

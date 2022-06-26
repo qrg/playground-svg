@@ -1,6 +1,7 @@
 import { FC } from 'react'
 
 import { Coordinates } from '../types'
+
 export type NodeSchema = {
   id: string
   content: string
@@ -9,10 +10,11 @@ export type NodeSchema = {
 
 export type NodeProps = NodeSchema
 
-const Node: FC<NodeProps> = ({ coords, content, children }) => {
+const Node: FC<NodeProps> = ({ id, coords, content, children }) => {
   const [x, y] = coords
   return (
     <div
+      key={id}
       style={{
         position: 'absolute',
         minWidth: '8px',

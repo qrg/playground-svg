@@ -3,8 +3,6 @@ const pluginsTs = [...plugins, '@typescript-eslint']
 
 const configs = [
   'eslint:recommended',
-  'standard',
-  'prettier',
   'plugin:import/errors',
   'plugin:import/warnings',
   'plugin:promise/recommended',
@@ -12,19 +10,22 @@ const configs = [
   'plugin:react/recommended',
   'plugin:react-hooks/recommended',
   'plugin:jsx-a11y/recommended',
+  'airbnb',
+  'airbnb/hooks',
 ]
 const configsTs = [
   ...configs,
   'plugin:import/typescript',
   'plugin:@typescript-eslint/recommended',
   'plugin:@typescript-eslint/recommended-requiring-type-checking',
+  'airbnb-typescript',
 ]
 
 const parserOptions = {
   ecmaFeatures: {
     jsx: true,
   },
-  ecmaVersion: 2021,
+  ecmaVersion: 2022,
   sourceType: 'module',
 }
 
@@ -44,13 +45,21 @@ const rules = {
       varsIgnorePattern: '^_',
     },
   ],
+  'import/prefer-default-export': 'off',
   'react/prop-types': 'off',
+  'react/jsx-props-no-spreading': 'off',
+  'react/require-default-props': 'off',
+  'react/default-props-match-prop-types': 'off',
 
   // Introducing the New JSX Transform – React Blog
   // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
   'react/jsx-uses-react': 'off',
   'react/react-in-jsx-scope': 'off',
 
+  'react/function-component-definition': [
+    'error',
+    { namedComponents: 'arrow-function' },
+  ],
   'jsx-a11y/anchor-is-valid': [
     'error',
     {
@@ -93,7 +102,7 @@ const rulesTs = {
 module.exports = {
   root: true,
   plugins,
-  extends: configs,
+  extends: [...configs, 'prettier'],
   parserOptions,
   settings: {
     react: {
@@ -142,7 +151,7 @@ module.exports = {
         ...parserOptions,
         project: './tsconfig.json',
       },
-      extends: configsTs,
+      extends: [...configsTs, 'prettier'],
       rules: rulesTs,
     },
     {
