@@ -1,6 +1,10 @@
-import { FC } from 'react'
+import type { ReactNode } from 'react'
 
-export const Rect: FC = ({ children }) => (
+type RectProps = {
+  children: ReactNode
+}
+
+export const Rect = ({ children }: RectProps) => (
   <g>
     <rect x="8" y="8" width="64" height="40" rx="4" ry="4">
       {children}

@@ -1,6 +1,10 @@
-import { FC } from 'react'
+import type { ReactNode } from 'react'
 
-export const LineLayer: FC = ({ children }) => (
+type LineLayerProps = {
+  children: ReactNode
+}
+
+export const LineLayer = ({ children }: LineLayerProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 768 512"

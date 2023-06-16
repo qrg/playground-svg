@@ -12,9 +12,10 @@
     "dev": "cross-env NODE_ENV=development HMR=true webpack serve",
     "build": "cross-env NODE_ENV=development webpack",
     "test": "jest",
-    "lint": "pnpm lint:eslint && pnpm lint:prettier",
+    "lint": "pnpm type-check && pnpm lint:eslint && pnpm lint:prettier",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
-    "lint:prettier": "prettier --check '**/*.{js,jsx,ts,tsx,md,yml,yaml,html,json}'"
+    "lint:prettier": "prettier --check '**/*.{js,jsx,ts,tsx,md,yml,yaml,html,json}'",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "core-js": "3.31.0",

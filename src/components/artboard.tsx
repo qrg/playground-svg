@@ -1,6 +1,10 @@
-import { FC } from 'react'
+import type { ReactNode } from 'react'
 
-export const Artboard: FC = ({ children }) => (
+type ArtboardProps = {
+  children: ReactNode
+}
+
+export const Artboard = ({ children }: ArtboardProps) => (
   <div
     style={{
       position: 'relative',

@@ -1,6 +1,10 @@
-import { FC } from 'react'
+import type { ReactNode } from 'react'
 
-export const NodeLayer: FC = ({ children }) => (
+type NodeLayerProps = {
+  children: ReactNode
+}
+
+export const NodeLayer = ({ children }: NodeLayerProps) => (
   <div
     style={{
       position: 'absolute',

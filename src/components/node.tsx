@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import type { ReactNode } from 'react'
 
 import { Coordinates } from '../types'
 
@@ -8,9 +8,11 @@ export type NodeSchema = {
   coords: Coordinates
 }
 
-export type NodeProps = NodeSchema
+export type NodeProps = {
+  children?: ReactNode
+} & NodeSchema
 
-const Node: FC<NodeProps> = ({ id, coords, content, children }) => {
+const Node = ({ id, coords, content, children }: NodeProps) => {
   const [x, y] = coords
   return (
     <div
