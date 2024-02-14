@@ -6,7 +6,7 @@
   "private": true,
   "packageManager": "pnpm@8.15.2",
   "engines": {
-    "node": ">=20.11.0"
+    "node": ">=20.11.1"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development HMR=true webpack serve",
