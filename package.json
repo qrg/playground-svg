@@ -6,7 +6,7 @@
   "private": true,
   "packageManager": "pnpm@8.15.5",
   "engines": {
-    "node": ">=20.12.0"
+    "node": ">=20.12.1"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development HMR=true webpack serve",
@@ -29,7 +29,7 @@
     "@babel/preset-react": "7.24.1",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.11",
     "@types/jest": "^29.5.12",
-    "@types/node": "20.12.2",
+    "@types/node": "20.12.4",
     "@types/react": "18.2.74",
     "@types/react-dom": "18.2.24",
     "@typescript-eslint/eslint-plugin": "6.21.0",
