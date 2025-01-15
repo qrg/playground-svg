@@ -4,7 +4,7 @@
   "author": "qrg <qualle.rhythmus+d@gmail.com>",
   "license": "MIT",
   "private": true,
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@8.15.9",
   "engines": {
     "node": ">=20.13.1"
   },
