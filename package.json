@@ -27,7 +27,7 @@
     "@babel/core": "7.27.4",
     "@babel/preset-env": "7.27.2",
     "@babel/preset-react": "7.27.1",
-    "@pmmmwh/react-refresh-webpack-plugin": "0.5.15",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.6.0",
     "@types/jest": "^29.5.14",
     "@types/node": "20.17.14",
     "@types/react": "18.3.23",
