@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^17.1.0
     version: 17.1.0(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint-plugin-import@2.31.0)(eslint@8.57.1)
   eslint-config-prettier:
-    specifier: 8.10.0
-    version: 8.10.0(eslint@8.57.1)
+    specifier: 8.10.2
+    version: 8.10.2(eslint@8.57.1)
   eslint-plugin-import:
     specifier: 2.31.0
     version: 2.31.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.1)
@@ -3678,8 +3678,8 @@ packages:
       object.entries: 1.1.8
     dev: true
 
-  /eslint-config-prettier@8.10.0(eslint@8.57.1):
-    resolution: {integrity: sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==}
+  /eslint-config-prettier@8.10.2(eslint@8.57.1):
+    resolution: {integrity: sha512-/IGJ6+Dka158JnP5n5YFMOszjDWrXggGz1LaK/guZq9vZTmniaKlHcsscvkAhn9y4U+BU3JuUdYvtAMcv30y4A==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
