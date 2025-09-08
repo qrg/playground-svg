@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   core-js:
-    specifier: 3.45.0
-    version: 3.45.0
+    specifier: 3.45.1
+    version: 3.45.1
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -3253,8 +3253,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /core-js@3.45.0:
-    resolution: {integrity: sha512-c2KZL9lP4DjkN3hk/an4pWn5b5ZefhRJnAc42n6LJ19kSnbeRbdQZE5dSeE2LBol1OwJD3X1BQvFTAsa8ReeDA==}
+  /core-js@3.45.1:
+    resolution: {integrity: sha512-L4NPsJlCfZsPeXukyzHFlg/i7IIVwHSItR0wg0FLNqYClJ4MQYTYLbC7EkjKYRLZF2iof2MUgN0EGy7MdQFChg==}
     requiresBuild: true
     dev: false
 
