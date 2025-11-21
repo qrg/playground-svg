@@ -89,8 +89,8 @@ devDependencies:
     specifier: 4.6.2
     version: 4.6.2(eslint@8.57.1)
   html-webpack-plugin:
-    specifier: 5.6.4
-    version: 5.6.4(webpack@5.102.1)
+    specifier: 5.6.5
+    version: 5.6.5(webpack@5.102.1)
   jest:
     specifier: ^29.7.0
     version: 29.7.0(@types/node@20.19.25)
@@ -4749,8 +4749,8 @@ packages:
       terser: 5.41.0
     dev: true
 
-  /html-webpack-plugin@5.6.4(webpack@5.102.1):
-    resolution: {integrity: sha512-V/PZeWsqhfpE27nKeX9EO2sbR+D17A+tLf6qU+ht66jdUsN0QLKJN27Z+1+gHrVMKgndBahes0PU6rRihDgHTw==}
+  /html-webpack-plugin@5.6.5(webpack@5.102.1):
+    resolution: {integrity: sha512-4xynFbKNNk+WlzXeQQ+6YYsH2g7mpfPszQZUi3ovKlj+pDmngQ7vRXjrrmGROabmKwyQkcgcX5hqfOwHbFmK5g==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
       '@rspack/core': 0.x || 1.x
@@ -4765,7 +4765,7 @@ packages:
       html-minifier-terser: 6.1.0
       lodash: 4.17.21
       pretty-error: 4.0.0
-      tapable: 2.2.1
+      tapable: 2.3.0
       webpack: 5.102.1(webpack-cli@5.1.4)
     dev: true
 
@@ -7417,11 +7417,6 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
-    dev: true
-
-  /tapable@2.2.1:
-    resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
-    engines: {node: '>=6'}
     dev: true
 
   /tapable@2.3.0:
